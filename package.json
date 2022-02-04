@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Akhil Naidu",
+    "email": "kaparapu.akhilnaidu@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/akhil-naidu/md_mudoc_client/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "underscore": "1.3.x"
+  },
+  "deprecated": false,
+  "description": "Wrapper for the Mu Doc Lite API",
+  "devDependencies": {
+    "coffee-script": "~1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/akhil-naidu/md_mudoc_client",
+  "keywords": [
+    "mudoc",
+    "api"
+  ],
+  "main": "./main.js",
+  "name": "md_mudoc_client",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akhil-naidu/md_mudoc_client.git"
+  },
+  "scripts": {
+    "prepublish": "cake build"
+  },
+  "version": "0.0.1"
+}
